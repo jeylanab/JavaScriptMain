@@ -1,4 +1,4 @@
-// Conditional statement practice
+// Conditional statement practice : it is used to make decision basedd on a given condition
 console.log("My name is Jeylan");
 
 let number = 20;
