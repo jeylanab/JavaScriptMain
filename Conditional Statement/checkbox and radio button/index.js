@@ -71,3 +71,29 @@ if (value <=200 || value >=1000) {
 else {
     console.log("The Value is in the range");
 }
+
+// NOT operator
+let temp = 50;
+if (!(temp >= 0)){
+    console.log("It is Cold Outside");
+}
+else {
+    console.log ("It is warm OutSide");
+}
+
+// BOOLEAN operator 
+
+let sunny = true;
+
+if (sunny) {
+    console.log ("It is Sunnny Outside");
+
+}
+else {
+    console.log ("It is Cold Outside");
+}
+
+// WHILE AND DO WHILE LOOP
+
+let n = 0;
+
