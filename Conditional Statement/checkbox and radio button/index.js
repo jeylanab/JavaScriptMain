@@ -117,6 +117,7 @@ console.log("this is loop");
 
 for (MyNum = 10; MyNum > 0; MyNum--){
     console.log(MyNum);
+    console.log("Happy New Year");
 }
 
 
