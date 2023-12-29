@@ -116,8 +116,29 @@ let MyNum;
 console.log("this is loop");
 
 for (MyNum = 10; MyNum > 0; MyNum--){
+
+// BREAK: break the loop after that value (it will ommit the num)
+     if( MyNum == 5){
+        break;
+     }
+
+// Continue : skip one value 
+// if (MyNum == 5){
+//     continue;
+// }
     console.log(MyNum);
-    console.log("Happy New Year");
+}
+
+// Nested Loop 
+console.log("Nested Loop!")
+
+for ( let i = 1; i <= 3 ; i++){
+    for ( let j = 1; j <= 3 ; j++){
+        console.log(j);
+    
+    }
+    
+
 }
 
 
