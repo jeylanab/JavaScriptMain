@@ -110,4 +110,13 @@ do {
 }
 while (n < 20);
 
+// LOOP : is used to iterate the outcome on certain condition
+
+let MyNum;
+console.log("this is loop");
+
+for (MyNum = 10; MyNum > 0; MyNum--){
+    console.log(MyNum);
+}
+
 
