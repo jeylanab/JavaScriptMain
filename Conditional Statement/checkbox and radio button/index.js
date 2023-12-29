@@ -93,7 +93,21 @@ else {
     console.log ("It is Cold Outside");
 }
 
+let number = true;
+
+if (number) {
+    console.log("The number is positive ");
+}
+else {
+  console.log("the number is negative");
+}
+
 // WHILE AND DO WHILE LOOP
 
-let n = 0;
+let n = 6;
+do {
+    console.log(n++);
+}
+while (n < 20);
+
 
