@@ -26,3 +26,4 @@ let student = "Joe Doe";
 
 let firstChar = student.charAt(0).toLowerCase()
 console.log(firstChar);
+console.log("this is my first code");
