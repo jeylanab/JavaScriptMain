@@ -23,4 +23,5 @@ width = window.prompt("enter the width");
 function GetArea (area , height){
     area = height * width;
     console.log("area = " ,area);
+    console.log("area = " ,area);
 }
