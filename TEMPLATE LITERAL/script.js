@@ -14,3 +14,19 @@ let weight = 70;
 console.log(text);
 
 document.getElementById("label-1").innerHTML = text;
+
+
+// format currency 
+
+let num = 120004;
+
+// to displa the number with commas
+
+// num = num.toLocaleString("en-US");
+// console.log(num);
+
+// num = num.toLocaleString("hi-IN");
+// console.log(num);
+
+num = num.toLocaleString("en-US" , {style: "currency", currency: "USD" });
+console.log(num); //DISPLAY US DOLLAR SIGN
