@@ -10,3 +10,17 @@ MyFunction();
 MyFunction();
 MyFunction();
 MyFunction();
+
+// return funtion : is used to return what is called out side of the function
+
+let area ;
+let height;
+let width;
+height = window.prompt("enter the width");
+width = window.prompt("enter the width");
+
+   GetArea(area , height);
+function GetArea (area , height){
+    area = height * width;
+    console.log("area = " ,area);
+}
