@@ -74,6 +74,7 @@ async function doList() {
     const task3result = await task3();
     console.log(task3result);
     console.log("all tasks are completed")
+    console.log("all tasks are completed")
     }
    catch (error ) {
        console.error(error);
