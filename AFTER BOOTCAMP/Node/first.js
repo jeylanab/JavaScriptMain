@@ -13,3 +13,5 @@ if (firstInput == secondInput) {
 else {
     console.log("false")
 }
+
+// command to write the node json file and the dev dep
