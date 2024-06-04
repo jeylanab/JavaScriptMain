@@ -8,7 +8,7 @@ function task1() {
 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const task1 = true;
+            const isCompleted = true;
 
             if (task1) {
                             resolve("task one is completed");
@@ -16,7 +16,7 @@ function task1() {
             }
             else {
                            reject('task ONE REFUSED')
-        }
+            }
                 
             }, 3000);
     })

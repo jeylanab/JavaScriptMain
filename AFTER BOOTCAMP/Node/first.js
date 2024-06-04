@@ -15,3 +15,6 @@ else {
 }
 
 // command to write the node json file and the dev dep
+
+// npm init -y
+
