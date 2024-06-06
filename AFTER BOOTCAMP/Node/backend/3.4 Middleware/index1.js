@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 app.post("/submit", (req, res) => {
-  res.sendFile(__dirname + "/public/index.html")
+  console.log(req.body);
 })
 
 app.listen(port, () => {
